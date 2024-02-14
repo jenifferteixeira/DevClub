@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', sans-serif;
+    color: white;
+    background: linear-gradient(to right, #0b294d, #993399, #ffb6c1);
+}
+
+header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 34px;
+    margin-bottom: 218px;
+    background: transparent;
+
+}
+
+.topo {
+    margin-left: 97px;
+    margin-right: 371px;
+    display: inline-block;
+    width: 200px;
+    
+}
+ 
+.links {
+    margin-right: 61px;
+    display: flex;
+    border: none;
+    margin-left: 500px;
+    margin-top: 34px;
+    width: 100px;
+    cursor: pointer;
+}
+
+section {
+    margin-left: 97px;
+    font-size: 20px;
+    width: 600px;
+    display: inline-block;
+}
+
+h1 {
+    display: flex;
+    justify-content: left;
+    font-weight: 800px;
+    margin: 10px;
+    font-size: 90px;
+}
+
+aside {
+    display: inline-flex;
+    justify-content: right;
+    width: 800px;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 30%;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+article {
+    margin-left: 97px;
+    font-size: 20px;
+}
+
+.sobre {
+    font-size: 20px;
+}
+
+.lista {
+    margin-left: 153px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 20px;
+}
+
+h3 {
+    font-size: 65px;
+    font-weight: 800px;
+}
+
+.port {
+    width: 1400px;
+    font-size: 20px;
+    margin-left: 97px;
+
+}
+
+.img {
+    width: 560px;
+    display: inline-block;
+    border: 50px;
+    margin-right: 120px;
+    margin-top: 50px;
+
+}
+
+footer {
+    border-top: 120px;
+    width: 1400px;
+    margin-left: 97px;
+}
+
+.logo {
+    width: 100px;
+    display: inline;
+}
+
+.wpp {
+    display: inline;
+}
+
+.insta {
+    display: inline;
+}
+.in {
+    display: inline;
+}
+
+
