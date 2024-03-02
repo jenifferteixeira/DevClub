@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: image-set("./img/jokenpo.JPG");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa {
+    padding: 20px;
+    background-color: #efefef;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+button, .pedra, .papel, .tesoura {
+    height: 80px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: gray;
+    transition: opacity 0.3s ease-in-out;
+}
+button, .botao{
+    margin: 20px 5px 5px 5px;
+}
+button:hover {
+    opacity: 0.6;
+}
+
+p, .pontos {
+    margin: 5px;
+    font-weight: bold;
+}

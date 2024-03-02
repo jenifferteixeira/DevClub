@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 10</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Desafio 10 - Jokenpô</title>
 </head>
-<body>
-    
 
-    
+<body>
+    <div class="caixa">
+        <h1>JoKenPô</h1>
+        <div class="botao">
+            <button type="button" onclick="human('rock')" id="pedra"><img class="pedra" src="./img/pedra.JPG"></button>
+            <button type="button" onclick="human('paper')" id="papel"><img class="papel" src="./img/papel.JPG"></button>
+            <button type="button" onclick="human('scissors')" id="tesoura"><img class="tesoura"
+                    src="./img/tesoura.JPG"></button>
+        </div>
+        <p class="resultado"></p>
+        <br>
+        <p class="score1">Sua Pontuação: <span id="score1">0</span></p>
+        <p class="score2"> Pntuação da Alexa: <span id="score2">0</span></p>
+
+    </div>
+    <script src="./script.js"></script>
+
 </body>
+
 </html>
